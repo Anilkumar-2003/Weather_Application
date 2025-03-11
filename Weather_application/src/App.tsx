@@ -14,7 +14,7 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   const API_KEY = '7335d70471d5e9a63d20f74c996670e6';
-  const API_URL = 'http://api.weatherstack.com/current';
+  const API_URL = 'https://api.weatherstack.com/current';
 
   useEffect(() => {
     localStorage.setItem('favorites', JSON.stringify(favorites));
